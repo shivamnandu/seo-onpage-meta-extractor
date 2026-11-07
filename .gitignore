@@ -1,0 +1,5 @@
+seo_audit_output/
+output/
+__pycache__/
+.venv/
+*.pyc

@@ -1,0 +1,9 @@
+httpx>=0.27
+curl_cffi>=0.6
+beautifulsoup4>=4.12
+lxml>=5.1
+throttler>=1.2
+tldextract>=5.1
+langcodes>=3.4
+language_data>=1.2
+openpyxl>=3.1

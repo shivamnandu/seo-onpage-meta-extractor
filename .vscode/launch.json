@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SEO Extractor (GUI dialog)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/seo_tool.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "SEO Extractor (CLI: sample_urls.txt)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/seo_tool.py",
+      "args": ["--urls-file", "sample_urls.txt", "--output-dir", "seo_audit_output"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "SEO Extractor (CLI: dry run)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/seo_tool.py",
+      "args": ["--urls-file", "sample_urls.txt", "--dry-run"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
